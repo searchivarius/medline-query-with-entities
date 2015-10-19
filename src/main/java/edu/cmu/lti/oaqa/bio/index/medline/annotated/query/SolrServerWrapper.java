@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package edu.cmu.lti.oaqa.bio.query;
+package edu.cmu.lti.oaqa.bio.index.medline.annotated.query;
 
 import java.io.Closeable;
 import java.io.IOException;
