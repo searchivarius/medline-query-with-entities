@@ -2,6 +2,9 @@ A self-sufficient Solr/Lucene 5.x query application for the index created using 
 
 The index can be used as a regular SOLR instance. If one needs to use annotations, there is a special extension to do so. The query language is hard for humans to use. Therefore, there is a special simplified query language and an API to transform this simpler query language into the format that the extension can understand.
 
+Query language description
+==
+
 The query contains several terms that will be OR-ed together (you can also AND them if you wish). Alternatively, you can generate a query using the API, surround it with brackets, and combine this piece with other SOLR constructs.
 
 Summary of term types:
