@@ -25,7 +25,7 @@ will search for concept IDs 5888, which are also annotated as genes.
 I hope that I understood your explanation of concept_id queries correctly. If not, it can probably be fixed.
 
 5) Note on complex names. Those need to be quoted. You also need escape brackets and quotes if they are a part of the name, e.g. (note the backslash):
-"\[Ca2+]i"
+"\\[Ca2+]i"
 
 Again, a test application can be found at:
 
